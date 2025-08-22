@@ -1,0 +1,204 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+header{
+    padding: 20px 200px;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 7fr 2.2fr 1fr 2.2fr 1fr;
+    grid-template-rows: .7fr .5fr 3.3fr .9fr 2.2fr 2fr 1fr ;
+   background-color: rgb(219, 79, 14);
+
+}
+
+header>div>img{
+    width: 100%;
+    height: 100%;
+     border-radius: 50px;
+}
+.img-Logo1{
+    grid-column: 2/3;
+    grid-row: 3/6;
+}
+.img-Logo2{
+    grid-column: 4/5;
+    grid-row: 2/4;
+}
+.img-Logo3{
+    grid-column: 4/5;
+    grid-row: 5/7;
+}
+.navagation-Logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 15vh;
+    padding: 20px;
+}
+.Logo{
+    font-size: 45px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.inputs{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 45px;
+    width: 20vw;
+
+}
+.header-about{
+    display: grid;
+
+}
+.header-text1{
+    letter-spacing: 5px;
+    color: beige;
+   display: grid;
+   grid-column: 1/2; 
+   grid-row: 3/8;
+  font-size: 45px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header-text2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    display: grid;
+    grid-column: 1/2; 
+   grid-row: 3/8;
+   color: beige;
+   letter-spacing: 5px;
+}
+.input{
+    width: 150px;
+    height: 50px;
+    display: grid;
+    grid-column: 1/2; 
+   grid-row: 4/5;
+   border: black 2px solid;
+   border-radius: 30px ;
+   background-color: rgba(255, 255, 255, 0.712);
+}
+.navigation-card{
+    padding: 80px 200px;
+    height: 100vh;
+}
+.logo-card{
+    display: flex;
+    justify-content: space-between;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;    
+}
+#Search{
+    width: 35vw;
+    border: 2px solid rgb(219, 79, 14);
+    border-radius: 45px;
+    padding: 8px;
+}
+.card{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px ;
+
+}
+.card1{
+    width: 20vw;
+    height: 60vh;
+    border-radius: 50px;
+
+}
+.text1{
+   
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card2{
+     width: 20vw;
+    height: 60vh;
+    border-radius: 50px;
+    
+ 
+   
+}
+.card3{
+    width: 20vw;
+    height: 60vh;
+    border-radius: 50px;
+   
+}
+.text2{
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.text3{
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.button1{
+    border-radius: 30px;
+     width: 180px;
+    height: 40px;
+    color: beige;
+    background-color:rgba(219, 79, 14, 0.822) ;
+    border: 2px solid beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button2{
+     border-radius: 30px;
+     width: 180px;
+    height: 40px;
+    color: beige;
+    background-color:rgba(219, 79, 14, 0.822) ;
+    border: 2px solid beige;
+    
+}
+.button3{
+     border-radius: 30px;
+     width: 180px;
+    height: 40px;
+    color: beige;
+    background-color:rgba(219, 79, 14, 0.822) ;
+    border: 2px solid beige;
+}
+footer{
+    height: 100h;
+    
+}
+.block1{
+    height: 40vh;
+    background-color: rgb(219, 79, 14) ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.block2{
+    height:60vh;
+    background-color: white;
+}
+#text-block{
+    width: 35vw;
+    border: 2px solid rgb(219, 79, 14);
+    border-radius: 45px;
+    padding: 8px;
+}
+.button-block{
+    border-radius: 30px;
+     width: 180px;
+    height: 40px;
+    color: beige;
+    background-color:  rgba(219, 88, 11, 0.774);
+    border: 2px solid rgb(0, 0, 0);
+    
+}
